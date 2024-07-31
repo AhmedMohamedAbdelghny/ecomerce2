@@ -190,7 +190,7 @@ export const webhook = asyncHandler(async (req, res) => {
         status: "placed"
     })
 
-    return res.status(400).json({ msg: "done" })
+    return res.status(200).json({ msg: "done" })
 
 })
 
